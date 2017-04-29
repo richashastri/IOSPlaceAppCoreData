@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C77AD101EB44C4C0010C15B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C77AD0F1EB44C4C0010C15B /* AppDelegate.swift */; };
+		4C77AD121EB44C4C0010C15B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C77AD111EB44C4C0010C15B /* ViewController.swift */; };
+		4C77AD151EB44C4C0010C15B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C77AD131EB44C4C0010C15B /* Main.storyboard */; };
+		4C77AD181EB44C4C0010C15B /* PlacAppCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C77AD161EB44C4C0010C15B /* PlacAppCoreData.xcdatamodeld */; };
+		4C77AD1A1EB44C4C0010C15B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C77AD191EB44C4C0010C15B /* Assets.xcassets */; };
+		4C77AD1D1EB44C4C0010C15B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C77AD1B1EB44C4C0010C15B /* LaunchScreen.storyboard */; };
+		4C77AD281EB44C4C0010C15B /* PlacAppCoreDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C77AD271EB44C4C0010C15B /* PlacAppCoreDataTests.swift */; };
+		4C77AD331EB44C4C0010C15B /* PlacAppCoreDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C77AD321EB44C4C0010C15B /* PlacAppCoreDataUITests.swift */; };
+		4C77AD451EB454E10010C15B /* PlaceDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C77AD441EB454E10010C15B /* PlaceDescription.swift */; };
+		4C77AD471EB4554B0010C15B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C77AD461EB4554B0010C15B /* TableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C77AD241EB44C4C0010C15B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C77AD041EB44C4C0010C15B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C77AD0B1EB44C4C0010C15B;
+			remoteInfo = PlacAppCoreData;
+		};
+		4C77AD2F1EB44C4C0010C15B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C77AD041EB44C4C0010C15B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C77AD0B1EB44C4C0010C15B;
+			remoteInfo = PlacAppCoreData;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C77AD0C1EB44C4C0010C15B /* PlacAppCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlacAppCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C77AD0F1EB44C4C0010C15B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C77AD111EB44C4C0010C15B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C77AD141EB44C4C0010C15B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C77AD171EB44C4C0010C15B /* PlacAppCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PlacAppCoreData.xcdatamodel; sourceTree = "<group>"; };
+		4C77AD191EB44C4C0010C15B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C77AD1C1EB44C4C0010C15B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C77AD1E1EB44C4C0010C15B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C77AD231EB44C4C0010C15B /* PlacAppCoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlacAppCoreDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C77AD271EB44C4C0010C15B /* PlacAppCoreDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacAppCoreDataTests.swift; sourceTree = "<group>"; };
+		4C77AD291EB44C4C0010C15B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C77AD2E1EB44C4C0010C15B /* PlacAppCoreDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlacAppCoreDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C77AD321EB44C4C0010C15B /* PlacAppCoreDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacAppCoreDataUITests.swift; sourceTree = "<group>"; };
+		4C77AD341EB44C4C0010C15B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C77AD441EB454E10010C15B /* PlaceDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceDescription.swift; sourceTree = "<group>"; };
+		4C77AD461EB4554B0010C15B /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C77AD091EB44C4C0010C15B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C77AD201EB44C4C0010C15B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C77AD2B1EB44C4C0010C15B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C77AD031EB44C4C0010C15B = {
+			isa = PBXGroup;
+			children = (
+				4C77AD0E1EB44C4C0010C15B /* PlacAppCoreData */,
+				4C77AD261EB44C4C0010C15B /* PlacAppCoreDataTests */,
+				4C77AD311EB44C4C0010C15B /* PlacAppCoreDataUITests */,
+				4C77AD0D1EB44C4C0010C15B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C77AD0D1EB44C4C0010C15B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C77AD0C1EB44C4C0010C15B /* PlacAppCoreData.app */,
+				4C77AD231EB44C4C0010C15B /* PlacAppCoreDataTests.xctest */,
+				4C77AD2E1EB44C4C0010C15B /* PlacAppCoreDataUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C77AD0E1EB44C4C0010C15B /* PlacAppCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				4C77AD0F1EB44C4C0010C15B /* AppDelegate.swift */,
+				4C77AD111EB44C4C0010C15B /* ViewController.swift */,
+				4C77AD131EB44C4C0010C15B /* Main.storyboard */,
+				4C77AD191EB44C4C0010C15B /* Assets.xcassets */,
+				4C77AD1B1EB44C4C0010C15B /* LaunchScreen.storyboard */,
+				4C77AD1E1EB44C4C0010C15B /* Info.plist */,
+				4C77AD161EB44C4C0010C15B /* PlacAppCoreData.xcdatamodeld */,
+				4C77AD441EB454E10010C15B /* PlaceDescription.swift */,
+				4C77AD461EB4554B0010C15B /* TableViewController.swift */,
+			);
+			path = PlacAppCoreData;
+			sourceTree = "<group>";
+		};
+		4C77AD261EB44C4C0010C15B /* PlacAppCoreDataTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C77AD271EB44C4C0010C15B /* PlacAppCoreDataTests.swift */,
+				4C77AD291EB44C4C0010C15B /* Info.plist */,
+			);
+			path = PlacAppCoreDataTests;
+			sourceTree = "<group>";
+		};
+		4C77AD311EB44C4C0010C15B /* PlacAppCoreDataUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C77AD321EB44C4C0010C15B /* PlacAppCoreDataUITests.swift */,
+				4C77AD341EB44C4C0010C15B /* Info.plist */,
+			);
+			path = PlacAppCoreDataUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C77AD0B1EB44C4C0010C15B /* PlacAppCoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C77AD371EB44C4C0010C15B /* Build configuration list for PBXNativeTarget "PlacAppCoreData" */;
+			buildPhases = (
+				4C77AD081EB44C4C0010C15B /* Sources */,
+				4C77AD091EB44C4C0010C15B /* Frameworks */,
+				4C77AD0A1EB44C4C0010C15B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlacAppCoreData;
+			productName = PlacAppCoreData;
+			productReference = 4C77AD0C1EB44C4C0010C15B /* PlacAppCoreData.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C77AD221EB44C4C0010C15B /* PlacAppCoreDataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C77AD3A1EB44C4C0010C15B /* Build configuration list for PBXNativeTarget "PlacAppCoreDataTests" */;
+			buildPhases = (
+				4C77AD1F1EB44C4C0010C15B /* Sources */,
+				4C77AD201EB44C4C0010C15B /* Frameworks */,
+				4C77AD211EB44C4C0010C15B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C77AD251EB44C4C0010C15B /* PBXTargetDependency */,
+			);
+			name = PlacAppCoreDataTests;
+			productName = PlacAppCoreDataTests;
+			productReference = 4C77AD231EB44C4C0010C15B /* PlacAppCoreDataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C77AD2D1EB44C4C0010C15B /* PlacAppCoreDataUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C77AD3D1EB44C4C0010C15B /* Build configuration list for PBXNativeTarget "PlacAppCoreDataUITests" */;
+			buildPhases = (
+				4C77AD2A1EB44C4C0010C15B /* Sources */,
+				4C77AD2B1EB44C4C0010C15B /* Frameworks */,
+				4C77AD2C1EB44C4C0010C15B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C77AD301EB44C4C0010C15B /* PBXTargetDependency */,
+			);
+			name = PlacAppCoreDataUITests;
+			productName = PlacAppCoreDataUITests;
+			productReference = 4C77AD2E1EB44C4C0010C15B /* PlacAppCoreDataUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C77AD041EB44C4C0010C15B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = rshastri;
+				TargetAttributes = {
+					4C77AD0B1EB44C4C0010C15B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					4C77AD221EB44C4C0010C15B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C77AD0B1EB44C4C0010C15B;
+					};
+					4C77AD2D1EB44C4C0010C15B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C77AD0B1EB44C4C0010C15B;
+					};
+				};
+			};
+			buildConfigurationList = 4C77AD071EB44C4C0010C15B /* Build configuration list for PBXProject "PlacAppCoreData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C77AD031EB44C4C0010C15B;
+			productRefGroup = 4C77AD0D1EB44C4C0010C15B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C77AD0B1EB44C4C0010C15B /* PlacAppCoreData */,
+				4C77AD221EB44C4C0010C15B /* PlacAppCoreDataTests */,
+				4C77AD2D1EB44C4C0010C15B /* PlacAppCoreDataUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C77AD0A1EB44C4C0010C15B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C77AD1D1EB44C4C0010C15B /* LaunchScreen.storyboard in Resources */,
+				4C77AD1A1EB44C4C0010C15B /* Assets.xcassets in Resources */,
+				4C77AD151EB44C4C0010C15B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C77AD211EB44C4C0010C15B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C77AD2C1EB44C4C0010C15B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C77AD081EB44C4C0010C15B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C77AD181EB44C4C0010C15B /* PlacAppCoreData.xcdatamodeld in Sources */,
+				4C77AD471EB4554B0010C15B /* TableViewController.swift in Sources */,
+				4C77AD121EB44C4C0010C15B /* ViewController.swift in Sources */,
+				4C77AD451EB454E10010C15B /* PlaceDescription.swift in Sources */,
+				4C77AD101EB44C4C0010C15B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C77AD1F1EB44C4C0010C15B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C77AD281EB44C4C0010C15B /* PlacAppCoreDataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C77AD2A1EB44C4C0010C15B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C77AD331EB44C4C0010C15B /* PlacAppCoreDataUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C77AD251EB44C4C0010C15B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C77AD0B1EB44C4C0010C15B /* PlacAppCoreData */;
+			targetProxy = 4C77AD241EB44C4C0010C15B /* PBXContainerItemProxy */;
+		};
+		4C77AD301EB44C4C0010C15B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C77AD0B1EB44C4C0010C15B /* PlacAppCoreData */;
+			targetProxy = 4C77AD2F1EB44C4C0010C15B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C77AD131EB44C4C0010C15B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C77AD141EB44C4C0010C15B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C77AD1B1EB44C4C0010C15B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C77AD1C1EB44C4C0010C15B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C77AD351EB44C4C0010C15B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C77AD361EB44C4C0010C15B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C77AD381EB44C4C0010C15B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PlacAppCoreData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.asu.msse.rshastri.PlacAppCoreData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4C77AD391EB44C4C0010C15B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PlacAppCoreData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.asu.msse.rshastri.PlacAppCoreData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4C77AD3B1EB44C4C0010C15B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PlacAppCoreDataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.asu.msse.rshastri.PlacAppCoreDataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlacAppCoreData.app/PlacAppCoreData";
+			};
+			name = Debug;
+		};
+		4C77AD3C1EB44C4C0010C15B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PlacAppCoreDataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.asu.msse.rshastri.PlacAppCoreDataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlacAppCoreData.app/PlacAppCoreData";
+			};
+			name = Release;
+		};
+		4C77AD3E1EB44C4C0010C15B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PlacAppCoreDataUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.asu.msse.rshastri.PlacAppCoreDataUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PlacAppCoreData;
+			};
+			name = Debug;
+		};
+		4C77AD3F1EB44C4C0010C15B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PlacAppCoreDataUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.asu.msse.rshastri.PlacAppCoreDataUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PlacAppCoreData;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C77AD071EB44C4C0010C15B /* Build configuration list for PBXProject "PlacAppCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C77AD351EB44C4C0010C15B /* Debug */,
+				4C77AD361EB44C4C0010C15B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C77AD371EB44C4C0010C15B /* Build configuration list for PBXNativeTarget "PlacAppCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C77AD381EB44C4C0010C15B /* Debug */,
+				4C77AD391EB44C4C0010C15B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4C77AD3A1EB44C4C0010C15B /* Build configuration list for PBXNativeTarget "PlacAppCoreDataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C77AD3B1EB44C4C0010C15B /* Debug */,
+				4C77AD3C1EB44C4C0010C15B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4C77AD3D1EB44C4C0010C15B /* Build configuration list for PBXNativeTarget "PlacAppCoreDataUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C77AD3E1EB44C4C0010C15B /* Debug */,
+				4C77AD3F1EB44C4C0010C15B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4C77AD161EB44C4C0010C15B /* PlacAppCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4C77AD171EB44C4C0010C15B /* PlacAppCoreData.xcdatamodel */,
+			);
+			currentVersion = 4C77AD171EB44C4C0010C15B /* PlacAppCoreData.xcdatamodel */;
+			path = PlacAppCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4C77AD041EB44C4C0010C15B /* Project object */;
+}
